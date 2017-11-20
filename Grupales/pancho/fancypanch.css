@@ -1,0 +1,124 @@
+.header {
+  height: 70px;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fotopancho{
+  width: 50%;
+}
+
+.container{
+  background-color: white;
+}
+
+.menu{
+  font-size: 15px;
+  background-color: orange;
+  width:20%;
+  display: inline-block;
+}
+
+.barramenu{
+  display: inline-block;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.uno{
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.purple{
+  background-color: purple;
+  height: 150px;
+  width: 49%;
+  margin: 5px;
+  display: inline-block;
+}
+
+.dos{
+
+}
+
+.blue{
+height: 80px;
+width:98%;
+background-color: blue;
+}
+
+#foto{
+  width:60px;
+  height: auto;
+  float: right;
+}
+
+.tres{
+
+}
+
+.green{
+  height:200px;
+  background-color: green;
+  width: 30%;
+  margin: 10px;
+}
+
+.cuatro{
+width: 100%;
+}
+
+.yellow{
+  height: 150px;
+  background-color: yellow;
+  margin-top: 5px;
+}
+#mapa{
+  float:left;
+  margin: 30px;
+}
+
+@media (max-width: 768px){
+container
+#verde{
+    display: none;
+  }
+
+#violeta{
+  display: none;
+}
+.purple{
+  width: 100%;
+}
+.yellow{
+  width: 100%;
+}
+#adiospanch{
+  display: none;
+}
+
+.menu{
+  display: block;
+    width: 100px;
+}
+
+.barramenu{
+  display: block;
+  position: fixed;
+  top: 30;
+  right: 0;
+  z-index: 1;
+  padding: 10px;
+}
+
+#foto{
+  display: none;
+}

@@ -1,0 +1,29 @@
+//En la misma posición se encuentra el mismo tipo de dato
+
+datos1 = [“Fido”,”Gomez”,26,15000.78,true];
+datos2 = [“Gervasio”,”Fernandez”,32,28.550,false];
+
+var i;
+for(i=0;i<datos1.length;i++) {
+if(typeof(datos1[i])==number && type) //type of me devuelve el tipo de dato: caracteres, numeros o boolean.
+
+
+}
+
+
+
+
+
+
+
+
+/*   IMPORTANTE!
+
+== si son de igual valor
+=== si son de igual valor, y del mismo tipo.
+
+var string= "10";
+var numero= 10;
+console.log(string == numero) $true
+console.log(string === numero) $false
+ */

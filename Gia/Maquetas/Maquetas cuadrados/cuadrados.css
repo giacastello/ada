@@ -1,0 +1,50 @@
+.container{
+width: 60%;
+margin: 0 auto;
+}
+
+.op{
+  color:transparent
+}
+
+.op:hover{
+  opacity:0.7;
+  color:white;
+  text-transform: full-width;
+}
+
+.columna {
+  width: 32%;
+  display: inline-block;
+  float: left;
+  margin: 2px;
+}
+
+.cuadrado {
+  height: 200px;
+  background-image: url("waves.gif");
+  width: 100%;
+  display: inline-block;
+  float: left;
+  margin:2px;
+  border-radius: 15px;
+}
+
+p {
+  font-family: impact;
+  color: transparent;
+  font-size: 60px;
+  text-align: center;
+  padding-top:15px;
+
+}
+p:hover{
+  color:white;
+  text-transform: full-width;
+}
+
+#h1{
+  font-size:160px;
+  font-family: impact;
+  text-align: center;
+}

@@ -1,0 +1,63 @@
+.container{
+width: 90%;
+margin: 0 auto;
+padding-left: 10%
+}
+.op{
+  color:transparent
+  
+}
+
+.op:hover{
+  opacity:0.7;
+  color:white;
+  text-transform: full-width;
+}
+
+#columna1{
+  height: 750px;
+  background-color: #F4068A;
+  width: 15%;
+  display: inline-block;
+  float: left;
+}
+
+#columna2{
+  height: 750px;
+  background-color: #132241;
+  width: 15%;
+  display: inline-block;
+  float: left;
+}
+
+#columna3{
+  height: 750px;
+  background-color: #90577D;
+  width: 15%;
+  display: inline-block;
+  float: left;
+}
+
+#columna4{
+  height: 750px;
+  background-color: #26D9BA;
+  width: 15%;
+  display: inline-block;
+  float: left;
+}
+
+#columna5{
+  height: 750px;
+  background-color: #B5BF55;
+  width: 15%;
+  display: inline-block;
+  float: left;
+}
+
+#columna6{
+  height: 750px;
+  background-color: #2686BA;
+  width: 15%;
+  display: inline-block;
+  float: left;
+}

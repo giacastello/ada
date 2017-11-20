@@ -1,0 +1,22 @@
+.tercio {
+    width: 33%;
+    height: 300px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.texto {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+#A {
+background-color: rgb(164, 133, 192);
+}
+#B {
+background-color:rgb(238, 184, 238);
+}    
+#C {
+background-color: rgb(250, 212, 219);
+}
+

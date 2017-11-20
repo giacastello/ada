@@ -1,0 +1,58 @@
+.goldenhead{
+  background-image: url(https://media.giphy.com/media/3o7TKtDXJ48AogQxBC/giphy-downsized.gif);
+}
+.purple{
+  background-color:purple;
+}
+.blue{
+  background-color:blue;
+}
+.green{
+  background-color:green;
+}
+.magenta{
+  background-color:magenta;
+}
+.palms{
+  background-image: url(https://media.giphy.com/media/UdU2smxpYbPvG/giphy.gif);
+}
+.redrosa{
+  background-image: url(https://media.giphy.com/media/42884OFGWPMOs/giphy.gif);
+}
+.head{
+  background-image: url(https://media.giphy.com/media/l2Sq4GfepePeJt0pa/giphy.gif);
+}
+
+.long{
+  height: 300px;
+}
+
+.short{
+  height:50px;
+}
+
+.medium{
+  height: 100px;
+}
+.computer{
+  background-image: url(https://media.giphy.com/media/3o7abJxL1w984uW2AM/giphy.gif);
+}
+.frozen{
+  background-image: url(https://media.giphy.com/media/3o7WTGO3kxyADu8sV2/giphy.gif);
+}
+
+.gradient{
+background: linear-gradient(to left, black, white);
+}
+.textos{
+  background-image: url(https://media.giphy.com/media/ymiKd7838laww/giphy.gif);
+  height: 200px;
+}
+.greydient{
+  background: linear-gradient(to left, black, white);
+  height: 200px;
+}
+.header{
+  height: 130px;
+  background-color: rgb(227,193,74);
+}

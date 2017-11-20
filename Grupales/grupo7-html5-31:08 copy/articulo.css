@@ -1,0 +1,30 @@
+body{
+  background-color: pink;
+}
+
+figcaption{
+  text-align: center;
+}
+
+article{
+  height: 250px;
+  text-align: center;
+}
+
+.contenedor{
+  width:90%;
+  margin: 0 auto;
+}
+
+.column{
+  width:30%;
+  height:600px;
+  display: inline-block;
+  background-color: pink;
+
+}
+
+.imagen{
+  width:200px;
+  height:auto;
+}

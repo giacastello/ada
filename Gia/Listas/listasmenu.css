@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  pading:0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+}
+
+header{
+  padding: 30px;
+}
+
+nav{
+  background:cyan;
+  position:relative;
+}
+
+nav .menu{
+  position: absolute;
+  display: none;
+  background-color: magenta;
+}
+
+nav .ancla:hover .menu{
+  display:block;
+}
+
+nav .menu li{
+  display: block;
+  color: black;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 20px;
+}
+
+
+ul{
+  text-align: center;
+}

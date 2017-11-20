@@ -1,0 +1,29 @@
+.style {
+  border: 2px solid red;
+}
+
+.padre{
+  position: absolute;
+  background-color: pink;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.div {
+  border: 3px dashed #CCC;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: pink;
+}
+
+.section{
+  position:relative;
+
+}
+
+.h2 {
+  border-top: 1px solid orange;
+  border-bottom: 2px groove red;
+  border-left: 3px dashed green;
+  border-right:4px dotted blue;
+}

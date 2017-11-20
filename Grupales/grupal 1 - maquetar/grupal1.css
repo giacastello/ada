@@ -1,0 +1,41 @@
+.container{
+width: 90%;
+margin: 0 auto;
+padding-left: 10%
+}
+
+#columna1{
+  height: 750px;
+  background-color: #466ccd;
+  width: 10%;
+  display: inline-block;
+  float: left;
+}
+.medio {
+  width: 70%;
+  display: inline-block;
+  float: left;
+}
+
+#verde{
+  height: 150px;
+  background-color:#1c8a8a;
+}
+
+#naranja{
+  height: 450px;
+  background-color: #ba4d9c;
+}
+
+#green{
+  height: 150px;
+  background-color:#1c8a8a;
+}
+
+#columna2{
+  height: 750px;
+  background-color:#466ccd;
+  width: 10%;
+  display: inline-block;
+  float: left;
+}
