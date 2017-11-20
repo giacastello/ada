@@ -267,14 +267,14 @@ while (numeros <= 50) {
 var numero = parseFloat(prompt('ingrese número a factorizar'));
 function factorial (){
 for (i = numero; i= 1; i--){
-    var multiplicar = numero (i) * numero (i-1);
+    var multiplicar = (numero(i) * numero(i-1));
     console.log(`multiplicar`);
 }
+
 }
 
-console.log(`El factorial de ${numero} es ${multiplicar} `)
 
-// no imprime multiplicar
+// no imprime multiplicar 
 
 
 /*
