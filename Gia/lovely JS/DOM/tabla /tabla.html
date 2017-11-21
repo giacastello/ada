@@ -4,32 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tabla.css">
+    <script src="jquery.min.js"></script> <!-- debe ser siempre el primer js a llamar-->
+    <script src="tabla.js"></script>
     <title> Tablis</title>
+
 </head>
 <body>
     <div>
         <table> 
-            <th>
-                <td> Jaime </td>
-                <td> Perez </td>
-                <td> 28 </td>
-                <td>  </td>
-                <td>  </td>
-            </th>
-            <th>
-                <td> Lalo</td>
-                <td> Pirulo </td>
-                <td> 32 </td>
-                <td> </td>
-                <td> </td>
-            </th>
-            <th>
-                <td> Joaquín </td>
-                <td> Burbuja </td>
-                <td> 45 </td>
-                <td> </td>
-                <td> </td>
-            </th>
+            <tr>
+                <td> Gia </td>
+                <td> Castello </td>
+                <td> 26 </td>
+                <td> <button type="button" name="Eliminar" class="botonEliminar" id="1"> Eliminar </button> </td>
+                <td> <button type="button" name="Editar" class="botonEditar" id="4"> Editar </button></td>
+            </tr>
+            <tr>
+                <td> Mariam </td>
+                <td> Sleiman </td>
+                <td> 23 </td>
+                <td> <button type="button" name="Eliminar" class="botonEliminar" id="2"> Eliminar </button> </td>
+                <td> <button type="button" name="Editar" class="botonEditar" id="5"> Editar </button></td>
+            </tr>
+            <tr>
+                <td> Nicolás </td>
+                <td> Gericke </td>
+                <td> 29 </td>
+                <td> <button type="button" name="Eliminar" class="botonEliminar" id="3"> Eliminar </button> </td>                
+                <td> <button type="button" name="Editar" class="botonEditar" id="6"> Editar </button></td>
+            </tr>
         </table>
     </div>
 </body>
