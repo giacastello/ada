@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="tabla.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <script src="jquery.min.js"></script> <!-- debe ser siempre el primer js a llamar-->
     <script src="tabla.js"></script>
     <title> Tablis</title>
@@ -12,27 +13,35 @@
 </head>
 <body>
     <div>
-        <table> 
-            <tr>
+        <table id=tablis> 
+                <tr id="registro_0">
+                        <th> Nombre </th>
+                        <th> Apellido </th>
+                        <th> Edad </th>
+                        <th> Editar </th>
+                        <th> Eliminar </th>
+                    </tr>
+            <tr id="registro_1">
                 <td> Gia </td>
                 <td> Castello </td>
                 <td> 26 </td>
-                <td> <button type="button" name="Eliminar" class="botonEliminar" id="1"> Eliminar </button> </td>
-                <td> <button type="button" name="Editar" class="botonEditar" id="4"> Editar </button></td>
+                <td> <button type="button" name="Editar" class="botonEditar" id="edit1" data-rg="#registro_1"> &#9998; </button></td>
+                <td> <button type="button" name="Eliminar" class="botonEliminar" id="1" data-rg="#registro_1"> &#x1F5D1; </button> </td>
             </tr>
-            <tr>
+            <tr id="registro_2">
                 <td> Mariam </td>
                 <td> Sleiman </td>
                 <td> 23 </td>
-                <td> <button type="button" name="Eliminar" class="botonEliminar" id="2"> Eliminar </button> </td>
-                <td> <button type="button" name="Editar" class="botonEditar" id="5"> Editar </button></td>
+                <td> <button type="button" name="Editar" class="botonEditar" id="edit2" data-rg="registro_2">  &#9998; </button></td>
+                <td> <button type="button" name="Eliminar" class="botonEliminar" id="2" data-rg="registro_2">  &#x1F5D1; </button> </td>
             </tr>
-            <tr>
+            <tr id="registro_3">
                 <td> Nicolás </td>
                 <td> Gericke </td>
                 <td> 29 </td>
-                <td> <button type="button" name="Eliminar" class="botonEliminar" id="3"> Eliminar </button> </td>                
-                <td> <button type="button" name="Editar" class="botonEditar" id="6"> Editar </button></td>
+                <td> <button type="button" name="Editar" class="botonEditar" id="edit3" data-rg="registro_3">  &#9998;</button></td>
+                <td> <button type="button" name="Eliminar" class="botonEliminar" id="3" data-rg="registro_3">  &#x1F5D1; </button> </td>                
+
             </tr>
         </table>
     </div>

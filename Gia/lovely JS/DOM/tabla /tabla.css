@@ -1,4 +1,21 @@
-.botonEliminar {
-    font-size: 13px;
+.botonEditar {
     color:#D25CAD;
+}
+
+.botonEliminar {
+    color:#D25CAD;
+}
+#registro_0{
+    font-size: 15px;
+}
+
+#tablis{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+table{
+    border: solid 1pt;
+    border-inline-end-style: double;
 }
