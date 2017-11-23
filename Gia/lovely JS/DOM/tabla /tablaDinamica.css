@@ -5,25 +5,26 @@
 .botonEliminar {
     color:#D25CAD;
 }
+
 .botonNew {
     color:#D25CAD;
 }
-#registro_0{
+
+#registro_{
     font-size: 15px;
-}
-.title{
-    color:#D25CAD;
 }
 
 #tablis{
 
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    font-size: 12px;
+    font-size: 26px;
 }
+
 #divTabla{
     margin: 0 auto;
 }
+
 table{
     border: solid 1pt;
     border-inline-end-style: double;
