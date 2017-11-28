@@ -31,5 +31,18 @@ $(document).ready(function(){
     });
     $('.botonEditar').on('click',function(){
     })
+     //NEW REGISTRO
+     $('#add').on('click',function(){
+        var nuevo=[];
+        var n = $('#nn').val();
+        nuevo.push(n);
+        nuevo.push($('#an').val());
+        nuevo.push($('#en').val());
+        datos.push(nuevo);
+        console.log(datos);
+    })
 });
+
+   
+
 
