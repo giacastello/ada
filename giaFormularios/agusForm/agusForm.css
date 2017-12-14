@@ -1,0 +1,69 @@
+
+.container{
+	margin-top: 100px;
+}
+.form-control{
+	margin-top: 20px;
+}
+
+#iconotexto {
+	display:none;
+}
+
+.has-error #iconotexto {
+	display:inline-block;
+}
+
+.has-success #iconotexto{
+	display: inline-block;
+}
+
+.help-block{
+	display:none;
+}
+.has-error .help-block{
+	display:inline-block;
+}
+
+#icononumero {
+	display:none;
+}
+.has-error #icononumero {
+	display:inline-block;
+}
+
+.has-success #icononumero{
+	display: inline-block;
+}
+
+#iconomail {
+	display:none;
+}
+.has-error #iconomail {
+	display:inline-block;
+}
+
+.has-success #iconomail{
+	display: inline-block;
+}
+
+#iconoasunto {
+	display:none;
+}
+.has-error #iconoasunto {
+	display:inline-block;
+}
+
+.has-success #iconoasunto{
+	display: inline-block;
+}
+#iconomensaje {
+	display:none;
+}
+.has-error #iconomensaje {
+	display:inline-block;
+}
+
+.has-success #iconomensaje{
+	display: inline-block;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario con Bootstrap</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="agusForm.css">
+
+
+</head>
+<body>
+
+	 <div class="container">
+      <form>
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12 col-xs-12 datos">
+                <div class="form-group has-feedback"> <!-- CLASS PARA FEEDBACK EN ICONOS DE COLORES DE BOOTSTRAP-->
+                <input id ="texto" type="text" class="form-control" placeholder="Nombre" ><!-- PLACEHOLDER ES EL NOMBRE DEL DATO QUE QUEREMOS EN EL INPUT-->
+                <span id='iconotexto' class='glyphicon glyphicon-remove form-control-feedback'> </span> <!-- SPAN del texto de error que te pide el dato correcto -->
+                <span class="help-block"></span> <!-- es el mensaje del dato que no pusiste -->
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12 datos">
+            	<div class="form-group has-feedback">
+                <input type="text" class="form-control" placeholder="Telefono" id="numero">
+                <span id='icononumero' class='glyphicon glyphicon-remove form-control-feedback'> </span>
+                <span class="help-block"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 datos">
+            	<div class="form-group has-feedback">
+                <input type="text" class="form-control" placeholder="ejemplo@ejemplo" id="mail">
+                <span id='iconomail' class='glyphicon glyphicon-remove form-control-feedback'> </span>
+                <span class="help-block"></span>
+
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 datos">
+                <input id="localidad" type="text" class="form-control" placeholder="Localidad">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 datos">
+            	<div class="form-group has-feedback">
+                <input type="text" class="form-control" placeholder="Asunto" id="asunto">
+                <span id='iconoasunto' class='glyphicon glyphicon-remove form-control-feedback'> </span>
+                <span class="help-block"></span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 datos">
+            	<div class="form-group has-feedback">
+
+                <textarea class="form-control caja" placeholder= "Escriba su mensaje..." id="mensaje"></textarea> <!-- INPUT DE PÁRRAFO-->
+                <span id='iconomensaje' class='glyphicon glyphicon-remove form-control-feedback'> </span>
+                <span class="help-block"></span>
+              </div>
+            </div>
+        </div>
+        
+        
+            
+        
+        <div class="boton">
+            <button type="reset" class="btn btn-secondary" id="btborrar">Borrar</button> <!-- resetea los datos-->
+            <button type="button" class="btn btn-secondary" id="btnvalidar">Enviar</button>
+        </div>
+    </form>
+	</div>
+
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" src="agusForm.js"></script>
+
+</body>
+</html>
